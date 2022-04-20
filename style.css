@@ -1,0 +1,108 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 2em;
+  font-family: sans-serif;
+  line-height: 1.5;
+    background-color: black;
+    color: black; 
+}
+h1 {
+  font-family: "Comic Sans MS", sans-serif; 
+  
+}
+button {
+  padding: 15px;
+border-radius: 12px;
+  
+  
+}
+#gameButtonArea > button {
+  width:120px;
+  height:200px;
+  margin:8px;
+  
+}
+.hidden {
+  display: none;
+}
+#btn1 {
+    background: red;
+  filter: brightness(80%)
+}
+#btn2 {
+    background: orange;
+     filter: brightness(80%)
+}
+#btn3 {
+    background: yellow;
+  filter: brightness(80%)
+}
+#btn4 {
+    background: green;
+  filter: brightness(80%)
+}
+#btn5 {
+    background: blue;
+  filter: brightness(80%)
+}
+#btn6 {
+    background: indigo;
+  filter: brightness(80%)
+}
+#btn7 {
+    background: violet;
+  filter: brightness(80%)
+}
+
+
+
+#btn1:active, #btn1.lit {
+    background:red;
+    filter: brightness(130%)
+}
+#btn2:active, #btn2.lit {
+    background: orange;
+    filter: brightness(130%)
+}
+#btn3:active, #btn3.lit {
+    background:yellow;
+  filter: brightness(130%)
+}
+#btn4:active, #btn4.lit {
+    background:green;
+  filter: brightness(130%)
+}
+#btn5:active, #btn5.lit {
+    background:blue;
+  filter: brightness(290%)
+}
+#btn6:active, #btn6.lit {
+    background:indigo;
+  filter: brightness(200%)
+}
+#btn7:active, #btn7.lit {
+    background:violet;
+  filter: brightness(130%)
+}
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
