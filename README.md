@@ -69,7 +69,7 @@ I would spend more time making the program unbreakable. I noticed for some thing
 
 ## License
 
-    Copyright Quinn Ksnner
+    Copyright Quinn Kanner
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
